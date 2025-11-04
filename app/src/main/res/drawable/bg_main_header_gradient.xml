@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Soft Aqua + Mint Gradient -->
+    <gradient
+        android:startColor="#D8F3FF"
+    android:centerColor="#C8FFF4"
+    android:endColor="#E2FBFF"
+    android:angle="135"
+    android:type="linear" />
+
+    <!-- Gentle curve for modern feel -->
+    <corners android:radius="0dp" />
+</shape>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 🌈 Brand Gradient -->
+    <color name="gradient_start">#00C6FF</color> <!-- Sky Blue -->
+    <color name="gradient_end">#00E0A1</color>   <!-- Teal Green -->
+
+    <!-- 🟦 Core Brand Colors -->
+    <color name="primary">#00AEEF</color>
+    <color name="primaryVariant">#0077C8</color>
+    <color name="secondary">#00E0A1</color>
+    <color name="secondaryVariant">#00C18C</color>
+    <color name="accentColor">#00BFA6</color> <!-- 🔧 Fix for forgot_password_gradient -->
+
+    <!-- 🩶 Backgrounds -->
+    <color name="background">#F9FBFF</color>
+    <color name="surfaceVariant">#EDF6F9</color>
+    <color name="cardSurface">#FFFFFF</color>
+    <color name="light_gray">#DDDDDD</color> <!-- 🔧 Fix bg_input_field, bg_searchbar, note_item_bg -->
+    <color name="gray">#999999</color>
+    <color name="dark_gray">#555555</color>
+
+    <!-- 🖋️ Text -->
+    <color name="textPrimary">#1A1A1A</color>
+    <color name="textSecondary">#546E7A</color>
+    <color name="text_hint">#A0A0A0</color>
+
+    <!-- 🔵 Teal Palette -->
+    <color name="teal_100">#B2DFDB</color>
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_300">#4DB6AC</color>
+    <color name="teal_400">#26A69A</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897B</color>
+    <color name="teal_700">#00796B</color>
+
+    <!-- ⚙️ Components -->
+    <color name="buttonText">@android:color/white</color>
+    <color name="errorRed">#E53935</color>
+
+    <!-- ✅ Aliases for legacy XML -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primaryColor">@color/primary</color>
+    <color name="text_primary">@color/textPrimary</color>
+    <color name="text_secondary">@color/textSecondary</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="red">#E53935</color>
+    <color name="gray_text">#757575</color>
+</resources>

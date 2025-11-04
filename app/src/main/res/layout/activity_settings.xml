@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- 🏷 Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="32dp"
+            android:textColor="@color/black" />
+
+        <!-- 🔄 Sync Now -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSyncNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sync_now"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 🌙 Dark Mode -->
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchDarkMode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dark_mode"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- ☁️ Backup Notes -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/backup_notes"
+            style="?attr/materialButtonStyle"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 🗑 Clear Notes -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnClearNotes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/clear_all_notes"
+            style="?attr/materialButtonOutlinedStyle"
+            app:iconTint="@color/red"
+            android:textColor="@color/red"
+            android:layout_marginBottom="16dp" />
+
+        <!-- ℹ️ About -->
+        <TextView
+            android:id="@+id/tvAbout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_app"
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:layout_marginTop="40dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>

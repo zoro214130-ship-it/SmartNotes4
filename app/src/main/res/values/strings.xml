@@ -1,0 +1,24 @@
+<resources>
+    <!-- General App Info -->
+    <string name="app_name">Smart Notes</string>
+    <string name="splash_sub">Write it. Keep it. Find it.</string>
+
+    <!-- Main Screen -->
+    <string name="search_notes">Search your notes...</string>
+    <string name="no_notes">No notes yet! Add your first note ✍️</string>
+    <string name="no_notes_yet">No notes yet</string>
+    <string name="add_first_note">Add your first note</string>
+    <string name="add_note">Add Note</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="sync_now">🔄 Sync Now</string>
+    <string name="dark_mode">🌙 Dark Mode</string>
+    <string name="backup_notes">☁️ Backup Notes</string>
+    <string name="clear_all_notes">🗑 Clear All Notes</string>
+    <string name="empty_notes_icon">Illustration showing no notes</string>
+
+
+    <!-- About -->
+    <string name="about_app">ℹ️ Smart Notes — for smarter thoughts\nVersion 1.0</string>
+</resources>

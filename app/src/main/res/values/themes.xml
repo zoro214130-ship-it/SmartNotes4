@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- 🌙 App Theme -->
+    <style name="Theme.SmartNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- ✅ Updated to match Blue–Green modern palette -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/buttonText</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+
+        <!-- Status bar color for a clean top look -->
+        <item name="android:statusBarColor">@color/primaryVariant</item>
+
+        <!-- Navigation bar to match theme -->
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- ✨ Splash Theme -->
+    <style name="Theme.SmartNotes.Splash" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_gradient</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

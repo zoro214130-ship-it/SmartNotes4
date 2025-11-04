@@ -1,0 +1,23 @@
+# Android / Gradle
+.gradle/
+build/
+*/build/
+local.properties
+.cxx/
+captures/
+
+# Android Studio
+.idea/
+*.iml
+
+# Keystores (keep private)
+*.jks
+*.keystore
+
+# Releases
+app/release/
+app/*.apk
+app/*.aab
+
+# Firebase (optional)
+# app/google-services.json

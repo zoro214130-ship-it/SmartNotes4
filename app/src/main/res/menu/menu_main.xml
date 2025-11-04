@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Select Notes -->
+    <item
+        android:id="@+id/action_select"
+        android:icon="@drawable/ic_check_box"
+        android:title="Select"
+        app:showAsAction="always" />
+
+    <!-- Search -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <!-- Sort -->
+    <item
+        android:id="@+id/action_sort"
+        android:title="Sort"
+        app:showAsAction="never" />
+
+    <!-- Logout -->
+    <item
+        android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout"
+        app:showAsAction="never" />
+</menu>
